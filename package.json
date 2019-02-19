@@ -1,0 +1,19 @@
+{
+  "name": "ccam-chatbot",
+  "version": "1.0.0",
+  "description": "Cruftcam passion projects - how to build a chatbot with Dialogflow V2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Reimann",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@google-cloud/storage": "^2.4.2",
+    "consolidate": "^0.15.1",
+    "dialogflow": "^0.8.0",
+    "express": "^4.16.4",
+    "nunjucks": "^3.1.7",
+    "yargs": "^12.0.5"
+  }
+}
