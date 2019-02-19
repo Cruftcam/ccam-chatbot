@@ -1,0 +1,80 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 0;
+}
+
+.ccam-container {   
+    width: 100%; 
+    min-height: 24px;
+    margin: 0;    
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-top: 12px;  
+    padding-right: 24px;      
+    /* background-color: rgba(0, 255, 0, 1.0);   Default to control the container values. */
+}
+
+.ccam-flexbox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;   
+    justify-content: center;
+}
+
+.ccam-inner-frame {
+    padding: 12px;
+}
+
+.fnt-subheader {    
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+}
+
+.fnt-standard {
+    font-family: 'Lato', sans-serif;  
+}
+
+.bg-dark-1 {
+    background-color: rgba(95, 95, 125, 1.0); 
+    color: rgba(255, 255, 255, 1.0); 
+}
+
+.chat-control {
+    height: 400px; 
+    width: 360px; 
+    background-color: rgb(255, 255, 255); 
+    margin-bottom: 0px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    padding-bottom: 12px; 
+    border: 2px solid silver;
+  }
+
+  .chat-card {
+    width: 330px; 
+    height: auto; 
+    padding: 6px;        
+    margin-bottom: 6px;
+  }
+
+  .bot {
+    background-color: skyblue; 
+    margin-top: 12px;
+    margin-left: 1px;
+    border-radius: 0px 6px 6px 0px;
+  }
+  
+  .client {
+    background-color: rgb(221, 221, 82);
+    margin-top: 12px;
+    margin-left: 29px;
+    padding-right: 18px;
+    border-radius: 6px 0px 0px 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+  
